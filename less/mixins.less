@@ -1,1 +1,23 @@
-// Mixins Here
+// Mixins
+.nav-margin(){
+    margin-bottom: 3rem;
+}
+
+.nav-pad(){
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+//Parametric Mixin
+.custom-btn(@display,@text-align) {
+    background-color: @btn-bg-color;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    display: @display;
+    padding: 12px;
+    text-align: @text-align;
+    font-size: 18px;
+    cursor: pointer;
+    width: 37%;
+}
