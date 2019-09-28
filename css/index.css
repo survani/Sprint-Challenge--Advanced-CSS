@@ -160,6 +160,35 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  align-content: center;
+  border-bottom: 2px solid #F1F1F1;
+  background-color: #F6F6F6;
+  display: flex;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  flex-flow: column wrap;
+}
+.navbar h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-left: 24px;
+  text-align: center;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  margin-left: 3rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-family: #454A59;
+  font-size: 18px;
+  text-align: center;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
