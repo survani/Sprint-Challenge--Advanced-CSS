@@ -62,7 +62,11 @@
       }
 
       .btn {
-        .custom-btn(inline-block, center)
+        .custom-btn(inline-block, center);
+        
+        &:hover {
+          background-color: darken(@ebony-clay, 30%);
+        }
       }
     }
 
