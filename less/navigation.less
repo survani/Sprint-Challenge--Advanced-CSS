@@ -1,1 +1,37 @@
 // Navigation code here
+
+.navbar {
+    .nav-margin();
+    .nav-pad();
+    align-content: center;
+    border-bottom: 2px solid @nav-border;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-flow: column wrap;
+
+    h1{
+        font-size: @logo-size;
+        margin-bottom: 15px;
+        margin-left: 24px;
+        text-align: center;
+    }
+
+    ul{
+        display: flex;
+
+    }
+
+    li {
+        margin-left: 3rem;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: @nav-font;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+}
